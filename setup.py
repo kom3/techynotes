@@ -13,8 +13,8 @@ setup(
     package_data={'':['**/*', '*']},
     include_package_data=True,
     long_description='this app helps to maintain notes on github',
-    description=open('README.txt').read(),,
+    description=open('README.txt').read(),
     url="https://github.com/kom3/techynotes.git",
-    install_requires=["gcg==0.2.0","GitPython==3.1.1"]
+    install_requires=["gcg==0.2.0","GitPython==3.1.1","PyGithub==1.47"]
 
 )
